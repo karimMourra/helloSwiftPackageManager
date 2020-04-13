@@ -10,7 +10,8 @@ let package = Package(
         .library(
             name: "helloSwiftPackageManager",
             targets: ["helloSwiftPackageManager"]),
-        
+        .library(name: "JWPlayer_iOS_SDK.framework", targets: ["helloSwiftPackageManager"])
+
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.

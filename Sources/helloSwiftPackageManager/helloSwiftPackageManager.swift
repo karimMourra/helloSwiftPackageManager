@@ -1,5 +1,11 @@
 
-struct helloSwiftPackageManager {
-//    var player: JWPlayerController?
-    var text = "Hello, JW!"
+public struct Player {
+
+    public func  play() {
+        print("play")
+    }
+
+    public func pause() {
+        print("pause")
+    }
 }
